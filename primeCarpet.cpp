@@ -138,7 +138,7 @@ void generateFile(int N1, int N2) {
 			if (x[i]==1 && y[j]==1) {
 				myfile << "\\draw [draw = white, fill=" << color[2] << "] (" << i << "," << j << ") rectangle (" << i+1 << "," << j+1 <<");" << std::endl;
 			}
-		}		
+		}
 	}
 
 	myfile << "\\draw (0,0) grid (" << N1 << "," << N2 << ");" << std::endl;
@@ -151,9 +151,9 @@ void generateFile(int N1, int N2) {
 	myfile << "\\node at (" << N1/2-6 << ",-8.5) {\\Huge $(x,y)$ = };" << std::endl;
 	myfile << "\\node at (" << N1/2+2 << ",-8.5) {\\Huge if $y$ is prime and $x$ is not};" << std::endl;
 
-	myfile << "\\draw[fill=" << bgColor[1][1] << "] (" << N1/2-4 << ",-6) rectangle (" << N1/2-3 << ",-5);" << std::endl;
-	myfile << "\\draw[fill=" << bgColor[1][0] << "] (" << N1/2-4 << ",-7.5) rectangle (" << N1/2-3 << ",-6.5);" << std::endl;
-	myfile << "\\draw[fill=" << bgColor[0][1] << "] (" << N1/2-4 << ",-9) rectangle (" << N1/2-3 << ",-8);" << std::endl;
+	myfile << "\\draw[fill=" << color[2] << "] (" << N1/2-4 << ",-6) rectangle (" << N1/2-3 << ",-5);" << std::endl;
+	myfile << "\\draw[fill=" << color[0] << "] (" << N1/2-4 << ",-7.5) rectangle (" << N1/2-3 << ",-6.5);" << std::endl;
+	myfile << "\\draw[fill=" << color[1] << "] (" << N1/2-4 << ",-9) rectangle (" << N1/2-3 << ",-8);" << std::endl;
 
 	myfile << "\\end{tikzpicture}" << std::endl;
 	myfile << "\\end{document}" << std::endl;
