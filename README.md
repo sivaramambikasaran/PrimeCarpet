@@ -15,7 +15,7 @@ Use color 3: If <img style="float: middle" src="https://raw.githubusercontent.co
 
 ---
 
-The code generate a prime carpet where <img style="float: middle" src="https://raw.githubusercontent.com/sivaramambikasaran/PrimeCarpet/master/images/PC4.png" width = "30" /> and <img style="float: middle" src="https://raw.githubusercontent.com/sivaramambikasaran/PrimeCarpet/master/images/PC3.png" width = "30" /> are polynomials with non-negative integers as it coefficients. To run the code, key in
+The code generates a prime carpet where <img style="float: middle" src="https://raw.githubusercontent.com/sivaramambikasaran/PrimeCarpet/master/images/PC4.png" width = "30" /> and <img style="float: middle" src="https://raw.githubusercontent.com/sivaramambikasaran/PrimeCarpet/master/images/PC3.png" width = "30" /> are polynomials with non-negative integers as it coefficients. To run the code, key in
 
 	./primeCarpet.sh
 
